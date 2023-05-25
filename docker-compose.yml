@@ -1,0 +1,10 @@
+version: "3.1"
+services:
+  tesis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tesis/lowrankqp:latest
+    command: bash
+    volumes:
+      - $PWD:/workdir
