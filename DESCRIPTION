@@ -8,6 +8,7 @@ Authors@R: c(person("John T.", "Ormerod", role = c("aut","cre"),
                     email = "matt.wand@uts.edu.au"))
 Maintainer: John T. Ormerod <john.ormerod@sydney.edu.au>
 Description: Solves quadratic programming problems where the Hessian is represented as the product of two matrices.
+Encoding: UTF-8
 License: GPL (>= 2)
 NeedsCompilation: yes
 Packaged: 2022-05-04 03:30:41 UTC; jormerod
@@ -15,3 +16,4 @@ Author: John T. Ormerod [aut, cre],
   Matt P. Wand [aut]
 Repository: CRAN
 Date/Publication: 2022-05-09 07:30:11 UTC
+RoxygenNote: 7.2.1
